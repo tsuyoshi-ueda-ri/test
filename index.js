@@ -32,7 +32,18 @@ const test = (arg) => {
   }
 };
 
-test(3);
-test(5);
-test(3);
-test(6);
+//オブジェクト
+
+const foo = {
+  color: 'pink',
+  size: 'large',
+  purfume: 'mint',
+  go: () => {
+    console.log('Hello world!');
+  }
+};
+
+document.getElementsByTagName('button')[0].addEventListener('click',() => {
+  //命令を書く
+  window.alert('Hello World!');
+});
