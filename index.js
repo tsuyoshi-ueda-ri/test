@@ -1,4 +1,4 @@
-let test = 'Hello World!';
+let apple = 'Hello World!';
 
 // test = 'Hello World2!!';
 
@@ -17,11 +17,22 @@ const inoki = ['いーち','にーい','さーん','ダーー！！'];
 // }
 
 //if /else
-if(inoki.length > 5){
-  console.log('ボンバイエ！')
-} else {
-  console.log('ボンバ...!')
-}
+// if(inoki.length > 5){
+//   console.log('ボンバイエ！')
+// } else {
+//   console.log('ボンバ...!')
+// }
 
 //関数
-const
+const test = (arg) => {
+  if(inoki.length > arg){
+    console.log('ボンバイエ！');
+  } else {
+    console.log('ボンバ...!');
+  }
+};
+
+test(3);
+test(5);
+test(3);
+test(6);
