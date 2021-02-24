@@ -2,4 +2,6 @@ let test = 'Hello World!';
 
 // test = 'Hello World2!!';
 
-console.log(test);
+//定数
+const testest = 'He..Hell...Hello World!! '
+console.log(testest);
