@@ -9,9 +9,19 @@ const testest = 'He..Hell...Hello World!! '
 const inoki = ['いーち','にーい','さーん','ダーー！！'];
 
 //ループ文
-let index = 0;
-while(index < inoki.length){
-  //繰り返したい命令
-  console.log(inoki[index]);
-  index++;
+// let index = 0;
+// while(index < inoki.length){
+//   //繰り返したい命令
+//   console.log(inoki[index]);
+//   index++;
+// }
+
+//if /else
+if(inoki.length > 5){
+  console.log('ボンバイエ！')
+} else {
+  console.log('ボンバ...!')
 }
+
+//関数
+const
